@@ -155,7 +155,7 @@ header.sticky {
 }
 
 .prevent .box-container .box:hover {
-    box-shadow: .1rem .5rem .1rem 0 rgba(0, 0, 0, .1);
+    box-shadow: .1rem .5rem 1rem 0 rgba(0, 0, 0, .1);
 }
 
 .symptoms {
