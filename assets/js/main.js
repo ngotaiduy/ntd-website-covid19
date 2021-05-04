@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
-    $('#menu').click(function() {
+    $('#menu-bars').click(function() {
         $('.fa-bars').toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
 
     $(window).on('load scroll', function() {
         //Khi cuộn chuột xuống thì phần menu navbar tự đóng
-        $('#menu').removeClass('fa-times');
+        $('#menu-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
         if($(window).scrollTop() > 0) {

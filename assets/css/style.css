@@ -79,7 +79,7 @@ header.sticky {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-#menu {
+#menu-bars {
     font-size: 3rem;
     color: var(--blue);
     cursor: pointer;
@@ -424,7 +424,7 @@ header.sticky {
         padding-top: 8rem;
     }
 
-    #menu {
+    #menu-bars {
         display: block;
     }
 
